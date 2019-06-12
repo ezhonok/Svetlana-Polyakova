@@ -1,0 +1,43 @@
+body {
+	background-color: gray;
+	margin: 50px;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 4px 2px 8px black;
+  font-weight: bold;
+  color: antiquewhite;
+  font-size: 25px;
+  padding: 20px;
+}
+
+a:hover{
+	color: lightsteelblue;
+	font-size: 27px;
+
+}
+
+
+footer {
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: lightsteelblue;
+  	font-family: 'Poppins', sans-serif;
+  	text-shadow: 4px 2px 8px black;
+  	color: white;
+  	text-align: center;
+}
+
+header{
+	position: fixed;
+  	top: 0;
+  	width: 100%;
+  	font-family: 'Poppins', sans-serif;
+  	text-shadow: 4px 2px 8px black;
+  	color: white;
+  	text-align: center;
+}
