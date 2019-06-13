@@ -58,6 +58,22 @@ header{
 }
 
 
+#name {
+	/*background-color: rgba(169, 183, 193, 1);*/
+	background-color: rgba(200, 199, 204, 1);
+	font-family: 'Sacramento', cursive;
+	border: 2px solid darkslategray;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	text-align: center;
+	padding: 30px;
+	height: 200px;
+	width: 92%;
+	box-shadow: 10px 10px 10px black;
+}
+
 #proj {
 	border: 2px solid black;
 	margin: 20px;
@@ -134,7 +150,7 @@ header{
 	border-radius: 5px;
 	padding: 30px;
 	height: 550px;
-	width: 90%;
+	width: 92%;
 	box-shadow: 10px 10px 10px black;
 	display: flex;
 	flex-direction: row;
@@ -178,7 +194,7 @@ header{
 	margin-top: 50px;
 	padding: 30px;
 	height: 250px;
-	width: 90%;
+	width: 92%;
 	box-shadow: 10px 10px 10px black;
 /*	display: flex;
 	flex-direction: row;
