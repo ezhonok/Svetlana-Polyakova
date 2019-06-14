@@ -86,13 +86,20 @@ header{
 	margin: 20px;
 	margin-top: 88px;
 	margin-bottom: 30px;
+	margin-left: 30%;
+	margin-right: 30%;
+	height: 60px;
+	padding-top: -5;
+	padding-bottom: 15px;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
-
+	font-size: 13px;
 	border: 2px solid darkgray;
 	border-radius: 5px;
-	background-color: rgba(67, 80, 108, 1);
-	box-shadow: 10px 10px 10px black;
+	background-color: rgba(122, 131, 150, 1);
+	/*background-color: rgba(70, 100, 118, 1);*/
+/*	background-color: rgba(200, 199, 204, 1);
+*/	/*box-shadow: 10px 10px 10px black;*/
 	/*padding: 20px;*/
 
 }
@@ -107,7 +114,8 @@ header{
 	padding: 18px;
 	border: 2px solid darkgray;
 	border-radius: 5px;
-	background-color: rgba(70, 100, 118, 1);
+	/*background-color: rgba(70, 100, 118, 1);*/
+	background-color: rgba(200, 199, 204, 1);
 	box-shadow: 10px 10px 10px black;
 }
 
@@ -116,7 +124,8 @@ header{
 	flex-direction: row;
 	border: 2px solid darkgray;
 	border-radius: 5px;
-	background-color: rgba(67, 80, 108, 1);
+	background-color: rgba(122, 131, 150, 1);
+	/*background-color: rgba(67, 80, 108, 1);*/
 	box-shadow: 10px 10px 10px black;
 	/*margin-top: 170px;*/
 	/*align-items: flex-end;*/
