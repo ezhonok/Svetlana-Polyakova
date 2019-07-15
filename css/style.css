@@ -62,6 +62,11 @@ header{
   	text-align: center;
 }
 
+strong {
+	text-shadow: 1px 1px 2px white;
+	font-size: 19px;
+}
+
 
 #name {
 	background-color: rgba(200, 199, 204, 1);
@@ -73,8 +78,8 @@ header{
 	font-size: 30px;
 	text-align: center;
 	padding: 30px;
-	height: 200px;
-	width: 92%;
+	max-height: 60%;
+	max-width: 92%;
 	box-shadow: 10px 10px 10px black;
 }
 
@@ -85,7 +90,7 @@ header{
 	margin-bottom: 30px;
 	margin-left: 30%;
 	margin-right: 30%;
-	height: 60px;
+	max-height: 60%;
 	padding-top: -5;
 	padding-bottom: 15px;
 	text-align: center;
@@ -113,6 +118,8 @@ header{
 #projects {
 	display: flex;
 	flex-direction: row;
+	max-height: 50%;
+	max-width: 100%;
 	border: 2px solid darkgray;
 	border-radius: 5px;
 	background-color: rgba(122, 131, 150, 1);
@@ -121,42 +128,47 @@ header{
 	justify-content: center;
 	text-align: center;
 	justify-content: space-around;
+	flex-wrap: wrap;
+	/*overflow: auto;*/
 }
 
-#willowPic, #gamePic, #handsPic  {
+#willowPic, #gamePic, #handsPic {
 	height: 177px;
 	width: 177px;
 	border-radius: 50%;
 	border: darkgreen 3px solid ;
 	box-shadow: 5px 5px 10px black;
-	margin-left: -15px;
+	/*margin-left: -15px;*/
 
 }
 
-
 #game {
- 	align-self: flex-end;
- 	height: 400px;
- 	width: 200px;
+ 	/*align-self: flex-end;*/
+ 	/*flex-wrap: wrap;*/
+	/*height: 100%;*/
+	max-width: 250px;
+	border: 1px solid red;
 }
 
 #world {
-	align-self: flex-end;
-	height: 400px;
-	width: 200px;
+	/*align-self: flex-end;*/
+	/*height: 100%;*/
+	max-width: 250px;
+	border: 1px solid green;
 }
 
 #willow {
-	align-self: flex-end;
-	height: 400px;
-	width: 200px;
+	/*align-self: flex-end;*/
+	/*height: 100%;*/
+	max-width: 250px;
+	border: 1px solid yellow;
 }
 
 #contact {
 	text-decoration: none;
 	font-size: 15px;
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 250px;
 }
 
 #bio {
@@ -165,29 +177,35 @@ header{
 	border: 2px solid darkgray;
 	border-radius: 5px;
 	padding: 30px;
-	height: 550px;
-	width: 92%;
+	max-height: 90%;
+	max-width: 92%;
 	box-shadow: 10px 10px 10px black;
 	display: flex;
-	overflow: auto;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-self: center;
 }
 
 #biodiv {
-	height: 270px;
-	max-width: 70%
+	max-height: 70%;
+	max-width: 60%;
+	flex-wrap: wrap;
 }
 
 #mypic {
-	max-width: 65%;
-	max-height: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	width: 40%;
+	height: 50%;
 }
 
 #lana {
-	max-width: 90%;
-	max-height: 90%;
+	max-width: 100%;
+	max-height: 100%;
+	flex-wrap: wrap;
+/*	min-width: 50%;
+	min-height: 50%;*/
 	border-radius: 5px;
 	border: darkslategray 1px solid ;
 	box-shadow: 8px 8px 10px black;
