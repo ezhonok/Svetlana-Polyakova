@@ -143,25 +143,15 @@ strong {
 }
 
 #game {
- 	/*align-self: flex-end;*/
- 	/*flex-wrap: wrap;*/
-	/*height: 100%;*/
 	max-width: 250px;
-	border: 1px solid red;
 }
 
 #world {
-	/*align-self: flex-end;*/
-	/*height: 100%;*/
 	max-width: 250px;
-	border: 1px solid green;
 }
 
 #willow {
-	/*align-self: flex-end;*/
-	/*height: 100%;*/
 	max-width: 250px;
-	border: 1px solid yellow;
 }
 
 #contact {
