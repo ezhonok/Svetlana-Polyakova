@@ -8,14 +8,11 @@ body {
 
 a {
   text-decoration: none;
-  /*font-family: 'Poppins', sans-serif;*/
   font-family: 'Great Vibes', cursive;
   letter-spacing: 2px;
-  /*font-family: 'Marcellus', serif;*/
   text-shadow: 1px 1px 4px black;
   font-weight: bold;
   color: rgba(255, 252, 14);
-  /*color: black;*/
   font-size: 30px;
   padding: 20px;
 
@@ -24,14 +21,11 @@ a {
 a:hover {
 	color: rgba(199, 69, 143);
 	text-shadow: 10px 10px 8px black;
-
-	/*font-size: 27px;*/
-
 }
 
-/*h1 {
+h1 {
 	text-shadow: 4px 2px 8px darkslategray;
-}*/
+}
 
 footer {
   	right: 0;
@@ -42,12 +36,9 @@ footer {
   	margin-top: 50px;
   	margin-bottom: -20px;
   	margin-left: 20px;
-  	/*text-shadow: 4px 2px 4px black;*/
   	color: rgba(0, 150, 170, 0.8);
   	text-align: center;
 }
-
-
 
 
 header{
@@ -69,7 +60,6 @@ strong {
 
 
 #name {
-	/*background-color: rgba(255, 252, 14, 0.2);*/
 	background: rgba(0, 150, 170, 0.7);
 	font-family: 'Sacramento', cursive;
 	border: 1px solid black;
@@ -101,7 +91,6 @@ strong {
 	font-size: 13px;
 	border: 1px solid black;
 	border-radius: 5px;
-	/*background: rgba(0, 150, 170, 0.8);*/
 	background: rgba(255, 255, 255, 0.8);
 	box-shadow: 5px 5px 10px black;
 }
@@ -134,8 +123,6 @@ strong {
 	text-align: center;
 	justify-content: space-around;
 	flex-wrap: wrap;
-
-	/*overflow: auto;*/
 }
 
 #willowPic, #gamePic, #handsPic {
@@ -144,8 +131,6 @@ strong {
 	border-radius: 50%;
 	border: darkgreen 3px solid ;
 	box-shadow: 5px 5px 10px black;
-	/*margin-left: -15px;*/
-
 }
 
 #game {
@@ -187,7 +172,6 @@ strong {
 	max-height: 70%;
 	max-width: 60%;
 	flex-wrap: wrap;
-	/*text-shadow: 1px 2px pink;*/
 	text-shadow: 1px 1px 4px white;
 }
 
@@ -202,8 +186,6 @@ strong {
 	max-width: 100%;
 	max-height: 100%;
 	flex-wrap: wrap;
-/*	min-width: 50%;
-	min-height: 50%;*/
 	border-radius: 5px;
 	/*border: darkslategray 1px solid ;*/
 	box-shadow: 8px 8px 10px black;
